@@ -1,0 +1,15 @@
+{
+  "name": "cron-lib",
+  "version": "1.0.0",
+  "description": "A javascript libaray for creating scheduled job and list the time points matched with the expression based on crontab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment-timezone": "^0.5.21"
+  },
+  "author": "Vic Kuang",
+  "license": "ISC"
+}
