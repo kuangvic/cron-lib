@@ -1,6 +1,6 @@
 {
   "name": "cron-lib",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A javascript libaray for creating scheduled job and list the time points matched with the expression based on crontab",
   "main": "index.js",
   "scripts": {
