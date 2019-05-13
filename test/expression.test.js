@@ -1,7 +1,8 @@
 const Parser = require('../lib/parser')
 const moment = require('moment-timezone')
 
-const parser = new Parser(`0 0 0 *|12 * *`, {
+// 每隔3天的12:00执行
+const parser = new Parser(`0 0 12 *|3 * *`, {
   startDate: moment().format('YYYY-MM-DD HH:mm:ss'),
   endDate: moment().add(5, 'years').format('YYYY-MM-DD HH:mm:ss')
 })
